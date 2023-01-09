@@ -5,47 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc6305e-b579-425f-8198-b134043add3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/easynotes/model/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/easynotes/model/ResponseData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-notes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/easy-notes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/BidController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/ChatController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/NoteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/exception/ResourceBidFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/model/Bid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/model/Chat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/model/Note.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/easynotes/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/repository/BidRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/repository/ChatRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/repository/NoteRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/easynotes/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/easynotes/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/easynotes/controller/BidController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/easynotes/controller/ChatController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/easynotes/controller/NoteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/easynotes/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/easynotes/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/easynotes/exception/ResourceBidFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/easynotes/model/Bid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/easynotes/model/Chat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/easynotes/model/Note.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/easynotes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/easynotes/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/easynotes/repository/BidRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/easynotes/repository/ChatRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/easynotes/repository/NoteRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/easynotes/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/easynotes/repository/UserRepository.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#874#875#0" expanded="true" />
                 <element signature="e#956#957#0" expanded="true" />
@@ -90,14 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/easynotes/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="561">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -178,6 +147,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/easynotes/model/ResponseData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/easynotes/model/User.java" />
+        <option value="$PROJECT_DIR$/docker" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
       </list>
     </option>
   </component>
@@ -238,102 +209,6 @@
             <path>
               <item name="easy-notes" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="easy-notes" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="easy-notes" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="easy-notes" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="easy-notes" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="easy-notes" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="easy-notes" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="easy-notes" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="easy-notes" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="easy-notes" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="easy-notes" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="easy-notes" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="example" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="easy-notes" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="easy-notes" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="example" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="easynotes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="easy-notes" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="easy-notes" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="example" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="easynotes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="easy-notes" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="easy-notes" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="example" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="easynotes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="exception" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="easy-notes" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="easy-notes" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="example" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="easynotes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="easy-notes" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="easy-notes" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="example" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="easynotes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="repository" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="easy-notes" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="easy-notes" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -454,12 +329,12 @@
       <workItem from="1673190525799" duration="3548000" />
       <workItem from="1673194206487" duration="5805000" />
       <workItem from="1673238100124" duration="1202000" />
-      <workItem from="1673241054272" duration="9610000" />
+      <workItem from="1673241054272" duration="11428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46149000" />
+    <option name="totallyTimeSpent" value="47967000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,7 +357,7 @@
       <window_info id="Designer" order="5" />
       <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49906543" visible="true" weight="0.22654584" />
       <window_info id="Structure" order="7" sideWeight="0.50080776" side_tool="true" weight="0.22228146" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32936078" />
@@ -491,7 +366,7 @@
       <window_info anchor="bottom" id="Spring" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.19826652" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.19826652" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -799,7 +674,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#874#875#0" expanded="true" />
             <element signature="e#956#957#0" expanded="true" />
@@ -817,13 +692,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docker">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/easynotes/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="561">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
         </state>
       </provider>
     </entry>
