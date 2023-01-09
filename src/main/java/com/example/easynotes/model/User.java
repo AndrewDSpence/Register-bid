@@ -25,18 +25,13 @@ public class User {
 
     private String email;
 
-    @NotBlank
-    private String user_id;
-
-    @NotBlank
+//    @NotBlank
     private String user_name;
 
-    @NotBlank
+//    @NotBlank
 //    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+    @Column(length = 64)
     private  String user_password;
-
-    @NotBlank
-    private  String token;
 
     @Column(nullable = false, updatable = false)
     @Temporal(TemporalType.TIMESTAMP)
@@ -55,13 +50,6 @@ public class User {
     public void setId(Long id) {
         this.id = id;
     }
-
-    public String getUser_id () {  return user_id;    }
-
-    public void setUser_id(String user_id) {
-        this.user_id = user_id;
-    }
-
 
     public String getUser_name() {
         return user_name;
@@ -100,13 +88,5 @@ public class User {
 
     public void setUpdatedAt(Date updatedAt) {
         this.updatedAt = updatedAt;
-    }
-
-    public String getToken() {
-        return token;
-    }
-
-    public void setToken(String token) {
-        this.token = token;
     }
 }

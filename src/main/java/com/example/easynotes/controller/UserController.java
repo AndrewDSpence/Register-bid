@@ -1,10 +1,14 @@
 package com.example.easynotes.controller;
 
 import com.example.easynotes.exception.ResourceNotFoundException;
+import com.example.easynotes.model.ResponseData;
 import com.example.easynotes.model.User;
+import com.example.easynotes.model.LoginRequest;
+import com.example.easynotes.model.ResponseData;
 import com.example.easynotes.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -15,54 +19,54 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/api")
-public class UserController {
+public class UserController{
 
     @Autowired
     UserRepository userRepository;
 
     @GetMapping("/user")
-    public List<User> getAllUser() {
-        return userRepository.findAll();
+    public ResponseData getAllUser() {
+        return new ResponseData("200","Success", userRepository.findAll());
     }
 
-    @PostMapping("/user")
-    public User createUser(@Valid @RequestBody User user) {
-        return userRepository.save(user);
-    }
+//    @PostMapping("/user")
+//    public ResponseData createUser(@Valid @RequestBody User user) {
+//        try{
+//            User data =  userRepository.save(user);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//        return new ResponseData("200","Success",user);
+//    }
 
-    @GetMapping("/user/{id}")
-    public User getUserById(@PathVariable(value = "id") Long userId) {
-        return userRepository.findById(userId)
-                .orElseThrow(() -> new ResourceNotFoundException("User", "id", userId));
-    }
-    @PostMapping("/user/signun")
-    public User signIn(@Valid @RequestBody User user){
-        User a= user;
-        userRepository.findById(user.getId());
-        return a;
-    }
+//    @GetMapping("/user/{id}")
+//    public User getUserById(@PathVariable(value = "id") Long userId) {
+//        return userRepository.findById(userId)
+//                .orElseThrow(() -> new ResourceNotFoundException("User", "id", userId));
+//    }
 
-    @PutMapping("/user/{id}")
-    public User updateUser(@PathVariable(value = "id") Long userId,
-                           @Valid @RequestBody User userDetails) {
-        User user= userRepository.findById(userId)
-                .orElseThrow(() -> new ResourceNotFoundException("User", "id", userId));
+//    @PutMapping("/user/{id}")
+//    public User updateUser(@PathVariable(value = "id") Long userId,
+//                           @Valid @RequestBody User userDetails) {
+//        User user= userRepository.findById(userId)
+//                .orElseThrow(() -> new ResourceNotFoundException("User", "id", userId));
+//        if(userDetails.getUser_password().equals(user.getUser_password())){
+//            user.setUser_password(userDetails.getUser_password());
+//        }
+////        user.setEmail(userDetails.getEmail());
+////        user.setUser_name(userDetails.getUser_name());
+//
+//        User updatedUser = userRepository.save(user);
+//        return updatedUser;
+//    }
 
-        user.setUser_id(userDetails.getUser_id());
-        user.setUser_name(userDetails.getUser_name());
-        user.setUser_password(userDetails.getUser_password());
-
-        User updatedUser = userRepository.save(user);
-        return updatedUser;
-    }
-
-    @DeleteMapping("/user/{id}")
-    public ResponseEntity<?> deleteNote(@PathVariable(value = "id") Long userId) {
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new ResourceNotFoundException("User", "id", userId));
-
-        userRepository.delete(user);
-
-        return ResponseEntity.ok().build();
-    }
+//    @DeleteMapping("/user/{id}")
+//    public ResponseEntity<?> deleteNote(@PathVariable(value = "id") Long userId) {
+//        User user = userRepository.findById(userId)
+//                .orElseThrow(() -> new ResourceNotFoundException("User", "id", userId));
+//
+//        userRepository.delete(user);
+//
+//        return ResponseEntity.ok().build();
+//    }
 }
