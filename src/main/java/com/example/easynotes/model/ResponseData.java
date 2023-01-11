@@ -7,11 +7,11 @@ public class ResponseData {
     private String code;
     @NotBlank
     private String message;
-    private Object user;
-    public ResponseData(String code,String message,Object user){
+    private Object data;
+    public ResponseData(String code,String message,Object data){
         this.code = code;
         this.message = message;
-        this.user = user;
+        this.data = data;
     }
     public void setCode(String code) {
         this.code = code;
@@ -21,16 +21,16 @@ public class ResponseData {
         this.message = message;
     }
 
-    public void setUser(Object user) {
-        this.user = user;
+    public void setData(Object data) {
+        this.data = data;
     }
 
     public String getMessage() {
         return message;
     }
 
-    public Object getUser() {
-        return user;
+    public Object getData() {
+        return data;
     }
 
     public String getCode() {

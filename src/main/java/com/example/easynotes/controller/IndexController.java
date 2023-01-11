@@ -2,11 +2,13 @@ package com.example.easynotes.controller;
 
 
 import org.springframework.boot.web.servlet.error.ErrorController;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@CrossOrigin(origins = "http://192.168.104.99:3000")
 @RequestMapping("/")
 public class IndexController{
 

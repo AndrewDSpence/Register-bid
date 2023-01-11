@@ -3,10 +3,10 @@ package com.example.easynotes.model;
 import javax.validation.constraints.NotBlank;
 
 public class LoginRequest {
-    @NotBlank
+//    @NotBlank
     private String email;
 
-    @NotBlank
+//    @NotBlank
     private String user_password;
 
     public String getEmail() {

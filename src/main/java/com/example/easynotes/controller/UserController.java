@@ -17,14 +17,16 @@ import java.util.List;
 /**
  * Created by andrewdspence on 7/01/23.
  */
+
 @RestController
+@CrossOrigin(origins = "http://192.168.104.99:3000")
 @RequestMapping("/api")
 public class UserController{
 
     @Autowired
     UserRepository userRepository;
 
-    @GetMapping("/user")
+    @GetMapping(path = "/user")
     public ResponseData getAllUser() {
         return new ResponseData("200","Success", userRepository.findAll());
     }
