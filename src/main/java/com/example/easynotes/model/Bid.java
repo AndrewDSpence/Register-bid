@@ -22,10 +22,10 @@ public class Bid {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank
+//    @NotBlank
     private String user_name;
 
-    @NotBlank
+//    @NotBlank
     private String bid_statement;
 
 //    @NotBlank
@@ -45,13 +45,15 @@ public class Bid {
 //    @NotBlank
     private Long client_verify_payment;
 
-    @NotBlank
+//    @NotBlank
     private String client_join_date;
 
-    @NotBlank
+//    @NotBlank
     private String chat;
 
     private Long bid_num;
+
+    private Long del_flag;
 
     private String when_jobs;
 
@@ -128,6 +130,14 @@ public class Bid {
         this.client_verify_payment = client_verify_payment;
     }
 
+    public void setDel_flag(Long del_flag){
+        this.del_flag = del_flag;
+    }
+
+    public Long getDel_flag(){
+        return this.del_flag;
+    }
+
     public String getClient_join_date() {
         return client_join_date;
     }
@@ -140,7 +150,7 @@ public class Bid {
         return chat;
     }
 
-    public void setChat_list(String chat) {
+    public void setChat(String chat) {
         this.chat = chat;
     }
 
@@ -174,6 +184,14 @@ public class Bid {
 
     public void setUpdatedAt(Date updatedAt) {
         this.updatedAt = updatedAt;
+    }
+
+    public boolean isEmpty(){
+        if(user_name.isEmpty()){
+            return true;
+        }else {
+            return false;
+        }
     }
 }
 
