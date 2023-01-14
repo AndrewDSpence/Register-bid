@@ -1,5 +1,9 @@
 package com.example.easynotes.model;
 
+import org.hibernate.validator.constraints.pl.REGON;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
 import javax.validation.constraints.NotBlank;
 
 public class ResponseData {
@@ -12,6 +16,10 @@ public class ResponseData {
         this.code = code;
         this.message = message;
         this.data = data;
+    }
+    public ResponseData(String code,String message){
+        this.code = code;
+        this.message = message;
     }
     public void setCode(String code) {
         this.code = code;
@@ -36,4 +44,5 @@ public class ResponseData {
     public String getCode() {
         return code;
     }
+
 }

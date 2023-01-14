@@ -15,7 +15,7 @@ import java.util.List;
  * @authour created by Eric Nelson 2022.1.7
  **/
 @RestController
-@CrossOrigin(origins = "http://192.168.104.109:3000")
+@CrossOrigin
 @RequestMapping("/api")
 public class BidController {
 
@@ -28,19 +28,19 @@ public class BidController {
     }
 
     @PostMapping(value= "/bids")
-    public Bid createBid(@Valid Bid bid) {
+    public Bid createBid(@Valid @RequestBody Bid bid) {
         return bidRepository.save(bid);
     }
 
     @GetMapping("/bids/{id}")
-    public Bid getBidById(@PathVariable(value = "id") Long BidId) {
+    public Bid getBidById(@PathVariable(value = "id") @RequestBody Long BidId) {
         return bidRepository.findById(BidId)
                 .orElseThrow(() -> new ResourceNotFoundException("Bid", "id", BidId));
     }
 
     @PutMapping("/bids/{id}")
     public Bid updateBid(@PathVariable(value = "id") Long Bidid,
-                           @Valid  Bid BidDetails) {
+                           @Valid  @RequestBody Bid BidDetails) {
 
         Bid bid = bidRepository.findById(Bidid)
                 .orElseThrow(() -> new ResourceNotFoundException("Bid", "id", Bidid));
