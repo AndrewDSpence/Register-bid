@@ -1,6 +1,7 @@
 package com.example.easynotes.repository;
 
 import com.example.easynotes.model.Bid;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -15,7 +16,7 @@ import java.util.List;
  **/
 @Repository
 public interface BidRepository extends JpaRepository<Bid, Long> {
-    @Query(value = "SELECT * FROM BID_LOG WHERE DEL_FLAG = 0", nativeQuery = true)
+    @Query(value = "SELECT * FROM BID_LOG WHERE DEL_FLAG = 0 ORDER BY ID DESC " , nativeQuery = true)
     List<Bid> findAllBid();
 
     @Transactional
