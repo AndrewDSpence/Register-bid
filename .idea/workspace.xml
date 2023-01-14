@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="edc6305e-b579-425f-8198-b134043add3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/BidController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/BidController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/model/Bid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/easynotes/model/Bid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/repository/BidRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/easynotes/repository/BidRepository.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,22 +69,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/BidController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="466">
+              <caret line="58" column="52" lean-forward="true" selection-start-line="58" selection-start-column="52" selection-end-line="59" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/easynotes/model/ResponseData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
+            <state relative-caret-position="466">
               <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -143,8 +145,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/easynotes/model/ResponseData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/easynotes/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/AuthController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/BidController.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4ef27acf-ab22-4a3a-a860-548ab3ede23e/console_1.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/BidController.java" />
       </list>
     </option>
   </component>
@@ -426,12 +428,12 @@
       <workItem from="1673416085923" duration="11200000" />
       <workItem from="1673506884615" duration="2920000" />
       <workItem from="1673591149820" duration="2289000" />
-      <workItem from="1673687852248" duration="1946000" />
+      <workItem from="1673687852248" duration="2125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75848000" />
+    <option name="totallyTimeSpent" value="76027000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,7 +445,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -454,7 +456,7 @@
       <window_info id="Designer" order="5" />
       <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49906543" visible="true" weight="0.25159913" />
       <window_info id="Structure" order="7" sideWeight="0.50080776" side_tool="true" weight="0.22228146" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32936078" />
@@ -741,22 +743,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/BidController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/easynotes/model/ResponseData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="466">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/easynotes/model/ResponseData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/BidController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="466">
+          <caret line="58" column="52" lean-forward="true" selection-start-line="58" selection-start-column="52" selection-end-line="59" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
           </folding>
         </state>
       </provider>

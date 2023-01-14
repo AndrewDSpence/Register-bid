@@ -17,7 +17,7 @@ import java.util.List;
  * @authour created by Eric Nelson 2022.1.7
  **/
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "http://192.168.104.109:3000")
 @RequestMapping("/api")
 public class BidController {
 
@@ -30,10 +30,6 @@ public class BidController {
     }
 
     @PostMapping(value= "/bids")
-<<<<<<< HEAD
-    public Bid createBid(@Valid @RequestBody Bid bid) {
-        return bidRepository.save(bid);
-=======
     public ResponseBid createBid(@Valid Bid bid) {
         if(bid.getUser_name()!=null){
             if(bid.getBid_statement()!=null){
@@ -45,23 +41,17 @@ public class BidController {
         }
         else
             return new ResponseBid("407","Not Exists", "username Not exists");
->>>>>>> cfec87812ed38c50f6652a78fa9c09c9f53bc967
     }
 
     @GetMapping("/bids/{id}")
-    public Bid getBidById(@PathVariable(value = "id") @RequestBody Long BidId) {
+    public Bid getBidById(@PathVariable(value = "id") Long BidId) {
         return bidRepository.findById(BidId)
                 .orElseThrow(() -> new ResourceNotFoundException("Bid", "id", BidId));
     }
 
     @PutMapping("/bids/{id}")
     public Bid updateBid(@PathVariable(value = "id") Long Bidid,
-<<<<<<< HEAD
-                           @Valid  @RequestBody Bid BidDetails) {
-
-=======
                            @Valid  Bid BidDetails) {
->>>>>>> cfec87812ed38c50f6652a78fa9c09c9f53bc967
         Bid bid = bidRepository.findById(Bidid)
                 .orElseThrow(() -> new ResourceNotFoundException("Bid", "id", Bidid));
         Bid updatedBid = bidRepository.save(BidDetails);
