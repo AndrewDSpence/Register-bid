@@ -54,8 +54,18 @@ public class BidController {
                            @Valid  Bid BidDetails) {
         Bid bid = bidRepository.findById(Bidid)
                 .orElseThrow(() -> new ResourceNotFoundException("Bid", "id", Bidid));
-        Bid updatedBid = bidRepository.save(BidDetails);
-        return updatedBid;
+        bid.setClient_name(BidDetails.getClient_name());
+        bid.setUser_name(BidDetails.getUser_name());
+        bid.setClient_price(BidDetails.getClient_price());
+        bid.setBid_statement(BidDetails.getBid_statement());
+        bid.setClient_country(BidDetails.getClient_country());
+        bid.setChat(BidDetails.getChat());
+        bid.setClient_verify_id(BidDetails.getClient_verify_id());
+        bid.setClient_verify_payment(BidDetails.getClient_verify_payment());
+        bid.setClient_join_date(BidDetails.getClient_join_date());
+        bid.setBid_num(BidDetails.getBid_num());
+        bid.setWhen_jobs(BidDetails.getWhen_jobs());
+        return BidDetails;
     }
 
     @DeleteMapping("/bids/{id}")

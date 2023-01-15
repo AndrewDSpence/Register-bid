@@ -166,7 +166,7 @@ public class Bid {
         return when_jobs;
     }
 
-    public void setWhen_jobs(){
+    public void setWhen_jobs(String when_jobs){
         this.when_jobs = when_jobs;
     }
 
